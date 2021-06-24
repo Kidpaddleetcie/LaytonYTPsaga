@@ -13,6 +13,13 @@ body {
   margin: auto auto;
 }
 
+.illu {
+  margin: auto auto;
+  display: block !important;
+  max-width: 100%;
+  height: auto;
+}
+
 h2 {
   text-align: center;
   background-color: black;
@@ -77,5 +84,16 @@ section h3 {
 
 footer {
   background-color: black;
+  margin: 0;
+  padding: 10px;
+}
+
+footer p {
+  margin: auto auto;
+  text-align: center;
+}
+
+footer p a {
+  color: #3360da;
 }
 /*# sourceMappingURL=style.css.map */
