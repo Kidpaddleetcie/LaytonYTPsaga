@@ -1,0 +1,73 @@
+header {
+    margin: auto auto;
+    background-color: rgba(0, 0, 0, 0.829);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    color: white;
+    @media (orientation: portrait) {
+        flex-direction: column;
+        height: 300px;
+    }
+    @media (orientation: landscape) {
+        justify-content: space-around;
+        height: 200px;
+    }
+    section {
+        @media (orientation: portrait) {
+            width: 100%;
+        }
+        @media (orientation: landscape) {
+            width: 45%;
+            display: block;
+            padding: .375rem .75rem;
+        }
+        div {
+            @media (orientation: portrait) {
+                font-size: 1rem;
+                margin: auto auto;
+            }
+            @media (orientation: landscape) {
+                font-size: 1rem;
+                padding: .375rem .75rem;
+            }
+            border: dotted;
+            overflow-y: auto;
+            overflow-x: hidden;
+            width: 100%;
+            background-color: white;
+            display: block;
+            height: calc(5.25rem + 2px);
+            line-height: 1.5;
+            color: #495057;
+            border: 1px solid #ced4da;
+            border-radius: .25rem;
+            transition: border-color .15s ease-in-out,
+            box-shadow .15s ease-in-out;
+            &::-webkit-scrollbar {
+                width: 20px;
+                height: 20px;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: radial-gradient(circle, #858585 18%, #3b3b3b 77%);
+                border-radius: 15px;
+            }
+            &::-webkit-scrollbar-thumb:hover {
+                background: linear-gradient(13deg, #c7ceff 14%, #f9d4ff 64%);
+            }
+            a {
+                width: 100%;
+                text-align: center;
+                display: inline-block;
+                background-color: -internal-light-dark(#ffffff, #3b3b3b);
+                border-color: -internal-light-dark(#767676, #858585);
+                font-weight: normal;
+                white-space: nowrap;
+                min-height: 1.2em;
+                padding: .375rem .75rem;
+                font-size: 1.50vw;
+            }
+        }
+    }
+}

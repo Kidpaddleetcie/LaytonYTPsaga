@@ -1,0 +1,17 @@
+{
+    "lang": "fr",
+    "dir": "ltr",
+    "name": "LaytonYTPSaga",
+    "short_name": "LYTPS",
+    "theme_color": "#ffffff",
+    "background_color": "#00192e",
+    "display": "browser",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "https://kidpaddleetcie.github.io/LaytonYTPsaga/",
+    "icons": [{
+        "src": "assets/images/logo.png",
+        "sizes": "500x500",
+        "type": "image/png"
+    }]
+}

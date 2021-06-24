@@ -1,0 +1,105 @@
+header {
+  margin: auto auto;
+  background-color: rgba(0, 0, 0, 0.829);
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5rem 1rem;
+  color: white;
+}
+
+@media (orientation: portrait) {
+  header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 300px;
+  }
+}
+
+@media (orientation: landscape) {
+  header {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 200px;
+  }
+}
+
+@media (orientation: portrait) {
+  header section {
+    width: 100%;
+  }
+}
+
+@media (orientation: landscape) {
+  header section {
+    width: 45%;
+    display: block;
+    padding: .375rem .75rem;
+  }
+}
+
+header section div {
+  border: dotted;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 100%;
+  background-color: white;
+  display: block;
+  height: calc(5.25rem + 2px);
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+}
+
+@media (orientation: portrait) {
+  header section div {
+    font-size: 1rem;
+    margin: auto auto;
+  }
+}
+
+@media (orientation: landscape) {
+  header section div {
+    font-size: 1rem;
+    padding: .375rem .75rem;
+  }
+}
+
+header section div::-webkit-scrollbar {
+  width: 20px;
+  height: 20px;
+}
+
+header section div::-webkit-scrollbar-thumb {
+  background: radial-gradient(circle, #858585 18%, #3b3b3b 77%);
+  border-radius: 15px;
+}
+
+header section div::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(13deg, #c7ceff 14%, #f9d4ff 64%);
+}
+
+header section div a {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background-color: -internal-light-dark(#ffffff, #3b3b3b);
+  border-color: -internal-light-dark(#767676, #858585);
+  font-weight: normal;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: .375rem .75rem;
+  font-size: 1.50vw;
+}
+/*# sourceMappingURL=header.css.map */
