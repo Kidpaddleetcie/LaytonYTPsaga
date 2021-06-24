@@ -1,0 +1,112 @@
+@charset "UTF-8";
+article:nth-child(3) {
+  -ms-flex-item-align: auto;
+      -ms-grid-row-align: auto;
+      align-self: auto;
+  margin: auto 0;
+}
+
+article:nth-child(3) ul {
+  list-style-type: none;
+  border-left: #3360da 5px solid;
+  padding: 0;
+  background-color: #3360da34;
+  border-bottom: #3360da 1px solid;
+}
+
+article:nth-child(3) ul li:first-letter {
+  text-transform: uppercase;
+}
+
+article:nth-child(3) ul li:first-child {
+  font-weight: bold;
+  background-color: #3360da;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+article:nth-child(3) ul li:first-child[perso=layton]:before {
+  content: "🎩";
+}
+
+article:nth-child(3) ul li:first-child[perso=laytonEN]:before {
+  content: "🎩🇬🇧";
+}
+
+article:nth-child(3) ul li:first-child[perso=luke]:before {
+  content: "🧒";
+}
+
+article:nth-child(3) ul li:first-child[perso=luigi]:before {
+  content: "🟢";
+}
+
+article:nth-child(3) ul li:first-child[perso=mario]:before {
+  content: "🔴";
+}
+
+article:nth-child(3) ul li:first-child[perso=glin]:before {
+  content: "🧢";
+}
+
+article:nth-child(3) ul li:first-child[perso=descole]:before {
+  content: "🖤";
+}
+
+article:nth-child(3) ul li:first-child[perso=tintin]:before {
+  content: "👱";
+}
+
+article:nth-child(3) ul li:first-child[perso=kass]:before {
+  content: "🥼";
+}
+
+article:nth-child(3) ul li:first-child[perso=emmy]:before {
+  content: "🟡";
+}
+
+article:nth-child(3) ul li:first-child[perso=hitler]:before {
+  content: "☹️";
+}
+
+article:nth-child(3) ul li:first-child[perso=tavvar]:before {
+  content: "🚣‍♂️";
+}
+
+article:nth-child(3) ul li:first-child[perso=poopulaire]:before {
+  content: "👨‍👩‍👦‍👦";
+}
+
+article:nth-child(3) ul li:first-child[perso=robotnik]:before {
+  content: "😡";
+}
+
+article:nth-child(3) ul li:first-child[perso=ktastroff]:before {
+  content: "🤓";
+}
+
+article:nth-child(3) ul li:first-child[perso=polnareff]:before {
+  content: "🦳";
+}
+
+article:nth-child(3) ul li:first-child[perso=profdeluke]:before {
+  content: "🧔";
+}
+
+article:nth-child(3) ul li:first-child[perso=harki]:before {
+  content: "👑";
+}
+
+article:nth-child(3) ul li:first-child[perso=wright]:before {
+  content: "👷";
+}
+
+article:nth-child(3) ul li:not(li:first-child) {
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+article:nth-child(3) ul li:not(li:first-child):before {
+  content: " 👉 ";
+}
+/*# sourceMappingURL=detailpersos.css.map */

@@ -1,0 +1,25 @@
+@media (orientation: landscape) {
+    div {
+        margin: auto auto;
+        display: block;
+        iframe {
+            width: 33vw;
+            height: 22vw;
+            align-self: auto;
+            margin: auto 0;
+            padding: 5px;
+        }
+    }
+}
+
+@media (orientation: portrait) {
+    div {
+        width: 100%;
+        iframe {
+            align-self: auto;
+            width: 100%;
+            height: 45vh;
+            margin: auto auto;
+        }
+    }
+}
