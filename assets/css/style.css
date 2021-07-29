@@ -42,6 +42,13 @@ section h3 {
   width: 85vw;
   border-top: solid black 2px;
   border-right: solid black 2px;
+  cursor: pointer;
+}
+
+section h3:hover {
+  opacity: 0.8;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (orientation: landscape) {
@@ -62,6 +69,10 @@ section h3 {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100%;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    overflow: hidden;
+    display: none;
   }
 }
 
@@ -79,6 +90,10 @@ section h3 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    overflow: hidden;
+    display: none;
   }
 }
 
@@ -95,5 +110,30 @@ footer p {
 
 footer p a {
   color: #3360da;
+}
+
+.pagination {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 5px 5px;
+}
+
+.pagination a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #00192E;
+  color: white;
+  font-size: 15px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: black;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

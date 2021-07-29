@@ -1,0 +1,243 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+}
+
+/* Add a gray background color with some padding */
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #f1f1f1;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: white;
+  text-overflow: clip;
+  background: linear-gradient(30deg, #00192E 12%, #00000000 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(150deg, #00192E 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(30deg, #00192E 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(150deg, #00192E 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(60deg, #3360da 25%, rgba(0, 0, 0, 0) 25.5%, rgba(0, 0, 0, 0) 75%, #3360da 75%, #3360da 0), linear-gradient(60deg, #3360da 25%, rgba(0, 0, 0, 0) 25.5%, rgba(0, 0, 0, 0) 75%, #3360da 75%, #3360da 0), #0C497A;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: 80px 140px;
+  margin: auto auto;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card h3, .card h2 {
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+}
+
+.card .sources a {
+  white-space: pre;
+  display: inline-block;
+  padding: 2px;
+}
+
+.card .sources a:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+}
+
+.card .sources a:nth-child(2n+1) {
+  color: #3360da;
+}
+
+h5 {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.pagination {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.507);
+  padding: 5px 5px;
+}
+
+.pagination a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: #00192E;
+  color: white;
+  font-size: 15px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  border-left: #3360da 5px solid;
+  padding: 0;
+  background-color: #3360da34;
+  border-bottom: #3360da 1px solid;
+}
+
+ul li:first-letter {
+  text-transform: uppercase;
+}
+
+ul li:first-child {
+  font-weight: bold;
+  background-color: #3360da;
+  color: white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+ul li:first-child[perso=layton]:before {
+  content: "🎩";
+}
+
+ul li:first-child[perso=laytonEN]:before {
+  content: "🎩🇬🇧";
+}
+
+ul li:first-child[perso=luke]:before {
+  content: "🧒";
+}
+
+ul li:first-child[perso=luigi]:before {
+  content: "🟢";
+}
+
+ul li:first-child[perso=mario]:before {
+  content: "🔴";
+}
+
+ul li:first-child[perso=glin]:before {
+  content: "🧢";
+}
+
+ul li:first-child[perso=descole]:before {
+  content: "🖤";
+}
+
+ul li:first-child[perso=tintin]:before {
+  content: "👱";
+}
+
+ul li:first-child[perso=kass]:before {
+  content: "🥼";
+}
+
+ul li:first-child[perso=emmy]:before {
+  content: "🟡";
+}
+
+ul li:first-child[perso=hitler]:before {
+  content: "☹️";
+}
+
+ul li:first-child[perso=tavvar]:before {
+  content: "🚣‍♂️";
+}
+
+ul li:first-child[perso=poopulaire]:before {
+  content: "👨‍👩‍👦‍👦";
+}
+
+ul li:first-child[perso=robotnik]:before {
+  content: "😡";
+}
+
+ul li:first-child[perso=ktastroff]:before {
+  content: "🤓";
+}
+
+ul li:first-child[perso=polnareff]:before {
+  content: "🦳";
+}
+
+ul li:first-child[perso=profdeluke]:before {
+  content: "🧔";
+}
+
+ul li:first-child[perso=harki]:before {
+  content: "👑";
+}
+
+ul li:first-child[perso=wright]:before {
+  content: "👷";
+}
+
+ul li:not(li:first-child) {
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+ul li:not(li:first-child):before {
+  content: " 👉 ";
+}
+
+.responvid {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responvid iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+/*# sourceMappingURL=wiki.css.map */
