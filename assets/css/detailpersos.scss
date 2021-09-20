@@ -2,23 +2,24 @@ $c1:white;
 $c2:#00192E;
 $c3:#3360da;
 $c4:#0C497A;
+$c5:#472600;
 article {
     &:nth-child(3) {
         align-self: auto;
         margin: auto 0;
         ul {
             list-style-type: none;
-            border-left: $c3 5px solid;
+            border-left: $c5 5px solid;
             padding: 0;
             background-color: #3360da34;
-            border-bottom: $c3 1px solid;
+            border-bottom: $c5 1px solid;
             li {
                 &:first-letter {
                     text-transform: uppercase;
                 }
                 &:first-child {
                     font-weight: bold;
-                    background-color: $c3;
+                    background-color: $c5;
                     padding: 2px;
                     margin-bottom: 10px;
                     // C'est partit pour mettre tout les persos et leurs assigner une icone

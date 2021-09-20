@@ -50,15 +50,5 @@
     ],
     "description": "La LaytonYTPsaga en entier avec pleins d'informations dont des résumés !",
 
-    "screenshots": [{
-            "src": "assets/images/screenshotLYTPS_landscape.png",
-            "sizes": "1280x800",
-            "type": "image/png"
-        },
-        {
-            "src": "assets/images/screenshotLYTPS_portrait.png",
-            "sizes": "750x1334",
-            "type": "image/png"
-        }
-    ]
+   
 }

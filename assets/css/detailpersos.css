@@ -8,10 +8,10 @@ article:nth-child(3) {
 
 article:nth-child(3) ul {
   list-style-type: none;
-  border-left: #3360da 5px solid;
+  border-left: #472600 5px solid;
   padding: 0;
   background-color: #3360da34;
-  border-bottom: #3360da 1px solid;
+  border-bottom: #472600 1px solid;
 }
 
 article:nth-child(3) ul li:first-letter {
@@ -20,7 +20,7 @@ article:nth-child(3) ul li:first-letter {
 
 article:nth-child(3) ul li:first-child {
   font-weight: bold;
-  background-color: #3360da;
+  background-color: #472600;
   padding: 2px;
   margin-bottom: 10px;
 }

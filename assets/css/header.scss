@@ -8,11 +8,9 @@ header {
     color: white;
     @media (orientation: portrait) {
         flex-direction: column;
-        height: 300px;
     }
     @media (orientation: landscape) {
         justify-content: space-around;
-        height: 200px;
     }
     section {
         @media (orientation: portrait) {
