@@ -62,9 +62,8 @@ body {
 }
 
 .card .sources a {
-  white-space: pre;
   display: inline-block;
-  padding: 2px;
+  padding: 5px;
 }
 
 .card .sources a:hover {

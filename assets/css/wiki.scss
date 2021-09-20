@@ -72,9 +72,8 @@ body {
     }
     .sources {
         a {
-            white-space: pre;
             display: inline-block;
-            padding: 2px;
+            padding: 5px;
             &:hover {
                 background-color: rgba(0, 0, 0, 0.13);
             }
