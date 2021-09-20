@@ -52,7 +52,8 @@ body {
   margin-top: 20px;
 }
 
-.card h3, .card h2 {
+.card h3,
+.card h2 {
   text-align: center;
 }
 
@@ -87,7 +88,8 @@ h5 {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
@@ -118,7 +120,7 @@ h5 {
   color: white;
 }
 
-ul {
+.rightcolumn ul {
   list-style-type: none;
   border-left: #3360da 5px solid;
   padding: 0;
@@ -126,11 +128,11 @@ ul {
   border-bottom: #3360da 1px solid;
 }
 
-ul li:first-letter {
+.rightcolumn ul li:first-letter {
   text-transform: uppercase;
 }
 
-ul li:first-child {
+.rightcolumn ul li:first-child {
   font-weight: bold;
   background-color: #3360da;
   color: white;
@@ -138,88 +140,88 @@ ul li:first-child {
   margin-bottom: 10px;
 }
 
-ul li:first-child[perso=layton]:before {
+.rightcolumn ul li:first-child[perso=layton]:before {
   content: "🎩";
 }
 
-ul li:first-child[perso=laytonEN]:before {
+.rightcolumn ul li:first-child[perso=laytonEN]:before {
   content: "🎩🇬🇧";
 }
 
-ul li:first-child[perso=luke]:before {
+.rightcolumn ul li:first-child[perso=luke]:before {
   content: "🧒";
 }
 
-ul li:first-child[perso=luigi]:before {
+.rightcolumn ul li:first-child[perso=luigi]:before {
   content: "🟢";
 }
 
-ul li:first-child[perso=mario]:before {
+.rightcolumn ul li:first-child[perso=mario]:before {
   content: "🔴";
 }
 
-ul li:first-child[perso=glin]:before {
+.rightcolumn ul li:first-child[perso=glin]:before {
   content: "🧢";
 }
 
-ul li:first-child[perso=descole]:before {
+.rightcolumn ul li:first-child[perso=descole]:before {
   content: "🖤";
 }
 
-ul li:first-child[perso=tintin]:before {
+.rightcolumn ul li:first-child[perso=tintin]:before {
   content: "👱";
 }
 
-ul li:first-child[perso=kass]:before {
+.rightcolumn ul li:first-child[perso=kass]:before {
   content: "🥼";
 }
 
-ul li:first-child[perso=emmy]:before {
+.rightcolumn ul li:first-child[perso=emmy]:before {
   content: "🟡";
 }
 
-ul li:first-child[perso=hitler]:before {
+.rightcolumn ul li:first-child[perso=hitler]:before {
   content: "☹️";
 }
 
-ul li:first-child[perso=tavvar]:before {
+.rightcolumn ul li:first-child[perso=tavvar]:before {
   content: "🚣‍♂️";
 }
 
-ul li:first-child[perso=poopulaire]:before {
+.rightcolumn ul li:first-child[perso=poopulaire]:before {
   content: "👨‍👩‍👦‍👦";
 }
 
-ul li:first-child[perso=robotnik]:before {
+.rightcolumn ul li:first-child[perso=robotnik]:before {
   content: "😡";
 }
 
-ul li:first-child[perso=ktastroff]:before {
+.rightcolumn ul li:first-child[perso=ktastroff]:before {
   content: "🤓";
 }
 
-ul li:first-child[perso=polnareff]:before {
+.rightcolumn ul li:first-child[perso=polnareff]:before {
   content: "🦳";
 }
 
-ul li:first-child[perso=profdeluke]:before {
+.rightcolumn ul li:first-child[perso=profdeluke]:before {
   content: "🧔";
 }
 
-ul li:first-child[perso=harki]:before {
+.rightcolumn ul li:first-child[perso=harki]:before {
   content: "👑";
 }
 
-ul li:first-child[perso=wright]:before {
+.rightcolumn ul li:first-child[perso=wright]:before {
   content: "👷";
 }
 
-ul li:not(li:first-child) {
+.rightcolumn ul li:not(li:first-child) {
   margin-left: 10px;
   padding-bottom: 20px;
 }
 
-ul li:not(li:first-child):before {
+.rightcolumn ul li:not(li:first-child):before {
   content: " 👉 ";
 }
 
