@@ -13,13 +13,37 @@ body {
   margin: auto auto;
 }
 
+main {
+  margin: auto auto;
+  width: 80vw;
+}
+
+main .saison {
+  display: block;
+}
+
 main .saison h2 {
   text-align: center;
   background-color: black;
   padding: 20px;
-  margin: 0;
   font-size: 3vw;
   margin: 0 auto;
+  position: relative;
+}
+
+main .saison h2 a {
+  color: #3360da;
+  font-size: 10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 5px 5px;
+  background-color: #252525;
+}
+
+main .saison h2 a:hover {
+  border: solid 2px #3360da;
+  color: #252525;
 }
 
 main .saison section {
@@ -27,72 +51,91 @@ main .saison section {
   padding: 0;
 }
 
-main .saison section h3 {
-  margin: 0 0;
-  padding: 5px 5px;
-  background-color: #472600;
-  font-size: 0.9em;
-  width: 93.5vw;
-  border-top: solid black 2px;
-  border-right: solid black 2px;
-  cursor: pointer;
-}
-
-main .saison section h3:hover {
-  opacity: 0.8;
-  -webkit-transform: scale(1.01);
-          transform: scale(1.01);
-}
-
 @media (orientation: landscape) {
-  main .saison .tri {
-    background-color: rgba(0, 0, 0, 0.829);
-    margin: 0;
-    padding: 0;
-    border-bottom: black 5px solid;
-    border-top: black 5px solid;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    overflow: hidden;
-    display: none;
-    width: 93.5vw;
+  main .saison section h3 {
+    margin: 0 0;
+    padding: 5px 5px;
+    background-color: #472600;
+    font-size: 1.2em;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    cursor: pointer;
+    text-align: center;
   }
-  main .saison .tri article {
-    height: 500px;
-    overflow: auto;
+  main .saison section h3:hover {
+    opacity: 0.8;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
   }
-  main .saison .tri article::-webkit-scrollbar {
-    width: 13px;
-    height: 13px;
-  }
-  main .saison .tri article::-webkit-scrollbar-thumb {
-    background: #3360da34;
-    border: 2px solid #3360da;
-    border-radius: 10px;
-  }
-  main .saison .tri article::-webkit-scrollbar-thumb:hover {
-    background: #3360da34;
-  }
-  main .saison .tri article::-webkit-scrollbar-track {
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0px 0px 0px 0px #3360da;
-            box-shadow: inset 0px 0px 0px 0px #3360da;
-  }
+}
+
+main .saison section .tri {
+  background-color: rgba(0, 0, 0, 0.829);
+  margin: 0;
+  padding: 0;
+  border-bottom: black 5px solid;
+  border-top: black 5px solid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  overflow: hidden;
+  display: none;
+  width: 80vw;
+}
+
+main .saison section .tri article {
+  height: 500px;
+  overflow: auto;
+}
+
+main .saison section .tri article::-webkit-scrollbar {
+  width: 13px;
+  height: 13px;
+}
+
+main .saison section .tri article::-webkit-scrollbar-thumb {
+  background: #3360da34;
+  border: 2px solid #3360da;
+  border-radius: 10px;
+}
+
+main .saison section .tri article::-webkit-scrollbar-thumb:hover {
+  background: #3360da34;
+}
+
+main .saison section .tri article::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0px 0px 0px 0px #3360da;
+          box-shadow: inset 0px 0px 0px 0px #3360da;
 }
 
 @media (orientation: portrait) {
-  main .saison .tri {
+  main .saison section h3 {
+    margin: 0 0;
+    padding: 5px 5px;
+    background-color: #472600;
+    font-size: 0.8em;
+    border-left: solid black 2px;
+    border-right: solid black 2px;
+    cursor: pointer;
+    text-align: center;
+  }
+  main .saison section h3:hover {
+    opacity: 0.8;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+  main .saison section .tri {
     background-color: rgba(0, 0, 0, 0.829);
     margin: 0;
     padding: 0;
@@ -109,6 +152,28 @@ main .saison section h3:hover {
     transition: 0.4s;
     overflow: hidden;
     display: none;
+  }
+  main .saison section .tri article {
+    height: 150px;
+    overflow: auto;
+  }
+  main .saison section .tri article::-webkit-scrollbar {
+    width: 13px;
+    height: 13px;
+  }
+  main .saison section .tri article::-webkit-scrollbar-thumb {
+    background: #3360da34;
+    border: 2px solid #3360da;
+    border-radius: 10px;
+  }
+  main .saison section .tri article::-webkit-scrollbar-thumb:hover {
+    background: #3360da34;
+  }
+  main .saison section .tri article::-webkit-scrollbar-track {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0px 0px 0px 0px #3360da;
+            box-shadow: inset 0px 0px 0px 0px #3360da;
   }
 }
 
@@ -127,28 +192,28 @@ footer p a {
   color: #3360da;
 }
 
-@media (orientation: portrait) {
-  header .pagination a {
-    display: none;
-  }
-  header .pagination a:first-child {
-    display: inline;
-  }
-  header .pagination a:last-child {
-    display: inline;
-  }
-  header .pagination a.active {
-    display: inline;
-  }
-}
-
-header .pagination {
+nav {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.507);
   padding: 5px 5px;
 }
 
-header .pagination a {
+@media (orientation: portrait) {
+  nav a {
+    display: none;
+  }
+  nav a:first-child {
+    display: inline;
+  }
+  nav a:last-child {
+    display: inline;
+  }
+  nav a.active {
+    display: inline;
+  }
+}
+
+a {
   color: white;
   padding: 8px 16px;
   text-decoration: none;
@@ -156,14 +221,69 @@ header .pagination a {
   transition: background-color .3s;
 }
 
-header .pagination a.active {
+a.active {
   background-color: #00192E;
   color: white;
   font-size: 15px;
 }
 
-header .pagination a:hover:not(.active) {
+a:hover:not(.active) {
   background-color: black;
   color: white;
+}
+
+@media (orientation: portrait) {
+  header img {
+    width: 50vw;
+  }
+}
+
+@media (orientation: landscape) {
+  header img {
+    height: 200px;
+  }
+}
+
+@media (orientation: portrait) {
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #00192E;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 10px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    max-width: 80vw;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color: black;
+  }
+  .dropdown-content a {
+    color: #00192E;
+    text-align: center;
+    background-color: #f9f9f9;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px #00192E;
+  }
+  .dropdown-content a:hover {
+    color: #f9f9f9;
+    background-color: #00192E;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+}
+
+@media (orientation: landscape) {
+  .dropdown {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

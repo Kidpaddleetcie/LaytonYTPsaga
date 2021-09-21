@@ -3,7 +3,7 @@
     "dir": "ltr",
     "name": "LaytonYTPSaga",
     "short_name": "LYTPS",
-    "theme_color": "#ffffff",
+    "theme_color": "##00192e",
     "background_color": "#00192e",
     "display": "browser",
     "orientation": "portrait",
