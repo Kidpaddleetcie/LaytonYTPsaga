@@ -118,6 +118,56 @@ article {
                             content: "👷";
                         }
                     }
+                    &[perso=marionnette] {
+                        &:before {
+                            content: "✋🏻";
+                        }
+                    }
+                    &[perso=araignee] {
+                        &:before {
+                            content: "🕸️";
+                        }
+                    }
+                    &[perso=sonic] {
+                        &:before {
+                            content: "🔵";
+                        }
+                    }
+                    &[perso=plop] {
+                        &:before {
+                            content: "🍄";
+                        }
+                    }
+                    &[perso=ours] {
+                        &:before {
+                            content: "🐻";
+                        }
+                    }
+                    &[perso=sable] {
+                        &:before {
+                            content: "🧝🏻";
+                        }
+                    }
+                    &[perso=paddle] {
+                        &:before {
+                            content: "🧒🏻";
+                        }
+                    }
+                    &[perso=trotro] {
+                        &:before {
+                            content: "🐎";
+                        }
+                    }
+                    &[perso=peppa] {
+                        &:before {
+                            content: "🐖";
+                        }
+                    }
+                    &[perso=haddock] {
+                        &:before {
+                            content: "👨‍✈️";
+                        }
+                    }
                     // C'est bon !
                 }
                 &:not(li:first-child) {

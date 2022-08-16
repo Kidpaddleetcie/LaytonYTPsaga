@@ -67,6 +67,10 @@ main .saison section {
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
   }
+  main .saison section h4 {
+    background-color: #472600;
+    color: white;
+  }
 }
 
 main .saison section .tri {

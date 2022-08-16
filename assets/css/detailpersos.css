@@ -101,6 +101,46 @@ article:nth-child(3) ul li:first-child[perso=wright]:before {
   content: "👷";
 }
 
+article:nth-child(3) ul li:first-child[perso=marionnette]:before {
+  content: "✋🏻";
+}
+
+article:nth-child(3) ul li:first-child[perso=araignee]:before {
+  content: "🕸️";
+}
+
+article:nth-child(3) ul li:first-child[perso=sonic]:before {
+  content: "🔵";
+}
+
+article:nth-child(3) ul li:first-child[perso=plop]:before {
+  content: "🍄";
+}
+
+article:nth-child(3) ul li:first-child[perso=ours]:before {
+  content: "🐻";
+}
+
+article:nth-child(3) ul li:first-child[perso=sable]:before {
+  content: "🧝🏻";
+}
+
+article:nth-child(3) ul li:first-child[perso=paddle]:before {
+  content: "🧒🏻";
+}
+
+article:nth-child(3) ul li:first-child[perso=trotro]:before {
+  content: "🐎";
+}
+
+article:nth-child(3) ul li:first-child[perso=peppa]:before {
+  content: "🐖";
+}
+
+article:nth-child(3) ul li:first-child[perso=haddock]:before {
+  content: "👨‍✈️";
+}
+
 article:nth-child(3) ul li:not(li:first-child) {
   margin-left: 10px;
   padding-bottom: 20px;

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+.rightcolumn ul {
+  list-style-type: none;
+  border-left: #3360da 5px solid;
+  padding: 0;
+  background-color: #3360da34;
+  border-bottom: #3360da 1px solid;
+}
+
+.rightcolumn ul li:first-letter {
+  text-transform: uppercase;
+}
+
+.rightcolumn ul li:first-child {
+  font-weight: bold;
+  background-color: #3360da;
+  color: white;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+.rightcolumn ul li:first-child[perso=layton] {
+  content: "Professeur Layton";
+}
+
+.rightcolumn ul li:first-child[perso=layton]:before {
+  content: "🎩";
+}
+
+.rightcolumn ul li:first-child[perso=laytonEN]:before {
+  content: "🎩🇬🇧";
+}
+
+.rightcolumn ul li:first-child[perso=luke]:before {
+  content: "🧒";
+}
+
+.rightcolumn ul li:first-child[perso=luigi]:before {
+  content: "🟢";
+}
+
+.rightcolumn ul li:first-child[perso=mario]:before {
+  content: "🔴";
+}
+
+.rightcolumn ul li:first-child[perso=glin]:before {
+  content: "🧢";
+}
+
+.rightcolumn ul li:first-child[perso=descole]:before {
+  content: "🖤";
+}
+
+.rightcolumn ul li:first-child[perso=tintin]:before {
+  content: "👱";
+}
+
+.rightcolumn ul li:first-child[perso=kass]:before {
+  content: "🥼";
+}
+
+.rightcolumn ul li:first-child[perso=emmy]:before {
+  content: "🟡";
+}
+
+.rightcolumn ul li:first-child[perso=hitler]:before {
+  content: "☹️";
+}
+
+.rightcolumn ul li:first-child[perso=tavvar]:before {
+  content: "🚣‍♂️";
+}
+
+.rightcolumn ul li:first-child[perso=poopulaire]:before {
+  content: "👨‍👩‍👦‍👦";
+}
+
+.rightcolumn ul li:first-child[perso=robotnik]:before {
+  content: "😡";
+}
+
+.rightcolumn ul li:first-child[perso=ktastroff]:before {
+  content: "🤓";
+}
+
+.rightcolumn ul li:first-child[perso=polnareff]:before {
+  content: "🦳";
+}
+
+.rightcolumn ul li:first-child[perso=profdeluke]:before {
+  content: "🧔";
+}
+
+.rightcolumn ul li:first-child[perso=harki]:before {
+  content: "👑";
+}
+
+.rightcolumn ul li:first-child[perso=wright]:before {
+  content: "👷";
+}
+
+.rightcolumn ul li:first-child[perso=marionnette]:before {
+  content: "✋🏻";
+}
+
+.rightcolumn ul li:first-child[perso=araignee]:before {
+  content: "🕸️";
+}
+
+.rightcolumn ul li:first-child[perso=sonic]:before {
+  content: "🔵";
+}
+
+.rightcolumn ul li:first-child[perso=plop]:before {
+  content: "🍄";
+}
+
+.rightcolumn ul li:first-child[perso=ours]:before {
+  content: "🐻";
+}
+
+.rightcolumn ul li:first-child[perso=sable]:before {
+  content: "🧝🏻";
+}
+
+.rightcolumn ul li:first-child[perso=paddle]:before {
+  content: "🧒🏻";
+}
+
+.rightcolumn ul li:first-child[perso=trotro]:before {
+  content: "🐎";
+}
+
+.rightcolumn ul li:first-child[perso=peppa]:before {
+  content: "🐖";
+}
+
+.rightcolumn ul li:first-child[perso=haddock]:before {
+  content: "👨‍✈️";
+}
+
+.rightcolumn ul li:not(li:first-child) {
+  margin-left: 10px;
+  padding-bottom: 20px;
+}
+
+.rightcolumn ul li:not(li:first-child):before {
+  content: " 👉 ";
+}
+/*# sourceMappingURL=personnages.css.map */

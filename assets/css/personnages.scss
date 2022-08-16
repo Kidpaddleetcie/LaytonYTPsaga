@@ -1,0 +1,180 @@
+$c1:white;
+$c2:#00192E;
+$c3:#3360da;
+$c4:#0C497A;
+.rightcolumn {
+    ul {
+        list-style-type: none;
+        border-left: $c3 5px solid;
+        padding: 0;
+        background-color: #3360da34;
+        border-bottom: $c3 1px solid;
+        li {
+            &:first-letter {
+                text-transform: uppercase;
+            }
+            &:first-child {
+                font-weight: bold;
+                background-color: $c3;
+                color: white;
+                padding: 2px;
+                margin-bottom: 10px;
+                // C'est partit pour mettre tout les persos et leurs assigner une icone
+                &[perso=layton] {
+                    &:before {
+                        content: "🎩";
+                    }
+                    content: "Professeur Layton";
+                }
+                &[perso=laytonEN] {
+                    &:before {
+                        content: "🎩🇬🇧";
+                    }
+                }
+                &[perso=luke] {
+                    &:before {
+                        content: "🧒";
+                    }
+                }
+                &[perso=luigi] {
+                    &:before {
+                        content: "🟢";
+                    }
+                }
+                &[perso=mario] {
+                    &:before {
+                        content: "🔴";
+                    }
+                }
+                &[perso=glin] {
+                    &:before {
+                        content: "🧢";
+                    }
+                }
+                &[perso=descole] {
+                    &:before {
+                        content: "🖤";
+                    }
+                }
+                &[perso=tintin] {
+                    &:before {
+                        content: "👱";
+                    }
+                }
+                &[perso=kass] {
+                    &:before {
+                        content: "🥼";
+                    }
+                }
+                &[perso=emmy] {
+                    &:before {
+                        content: "🟡";
+                    }
+                }
+                &[perso=hitler] {
+                    &:before {
+                        content: "☹️";
+                    }
+                }
+                &[perso=tavvar] {
+                    &:before {
+                        content: "🚣‍♂️";
+                    }
+                }
+                &[perso=poopulaire] {
+                    &:before {
+                        content: "👨‍👩‍👦‍👦";
+                    }
+                }
+                &[perso=robotnik] {
+                    &:before {
+                        content: "😡";
+                    }
+                }
+                &[perso=ktastroff] {
+                    &:before {
+                        content: "🤓";
+                    }
+                }
+                &[perso=polnareff] {
+                    &:before {
+                        content: "🦳";
+                    }
+                }
+                &[perso=profdeluke] {
+                    &:before {
+                        content: "🧔";
+                    }
+                }
+                &[perso=harki] {
+                    &:before {
+                        content: "👑";
+                    }
+                }
+                &[perso=wright] {
+                    &:before {
+                        content: "👷";
+                    }
+                }
+                &[perso=marionnette] {
+                    &:before {
+                        content: "✋🏻";
+                    }
+                }
+                &[perso=araignee] {
+                    &:before {
+                        content: "🕸️";
+                    }
+                }
+                &[perso=sonic] {
+                    &:before {
+                        content: "🔵";
+                    }
+                }
+                &[perso=plop] {
+                    &:before {
+                        content: "🍄";
+                    }
+                }
+                &[perso=ours] {
+                    &:before {
+                        content: "🐻";
+                    }
+                }
+                &[perso=sable] {
+                    &:before {
+                        content: "🧝🏻";
+                    }
+                }
+                &[perso=paddle] {
+                    &:before {
+                        content: "🧒🏻";
+                    }
+                }
+                &[perso=trotro] {
+                    &:before {
+                        content: "🐎";
+                    }
+                }
+                &[perso=peppa] {
+                    &:before {
+                        content: "🐖";
+                    }
+                }
+                &[perso=haddock] {
+                    &:before {
+                        content: "👨‍✈️";
+                    }
+                }
+                // C'est bon !
+            }
+            &:not(li:first-child) {
+                margin-left: 10px;
+                padding-bottom: 20px;
+                &:before {
+                    content: " 👉 ";
+                }
+            }
+        }
+    }
+}
