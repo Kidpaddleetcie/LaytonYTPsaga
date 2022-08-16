@@ -27,6 +27,29 @@ body {
 .leftcolumn {
     float: left;
     width: 75%;
+    .card {
+        &:first-child {
+            h3 {
+                text-align: justify;
+                background-color: $c2;
+                color: $c1;
+                padding: 10px;
+                margin: 0;
+                margin-top: 5px;
+            }
+            h4 {
+                text-align: right;
+                background-color: $c3;
+                color: $c1;
+                padding: 5px;
+                margin: 0;
+            }
+            p {
+                text-align: justify;
+                padding-left: 20px;
+            }
+        }
+    }
 }
 
 .rightcolumn {
