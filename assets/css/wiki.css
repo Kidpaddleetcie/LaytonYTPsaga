@@ -99,6 +99,36 @@ body {
   content: "";
 }
 
+.card .fanarts p {
+  display: inline-block;
+  margin: 2px;
+  padding: 2px;
+}
+
+.card .fanarts p a {
+  padding: 2px;
+  -webkit-transition: 0, 2s;
+  transition: 0, 2s;
+  font-weight: bold;
+}
+
+.card .fanarts p a:hover {
+  background-color: rgba(0, 0, 0, 0.13);
+  color: black;
+}
+
+.card .fanarts p a:nth-child(2n+1) {
+  color: #3360da;
+}
+
+.card .fanarts p a:after {
+  content: ",";
+}
+
+.card .fanarts p a:last-child:after {
+  content: "";
+}
+
 h5 {
   text-align: right;
 }

@@ -1,0 +1,15 @@
+body {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  border: none;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: white;
+  text-overflow: clip;
+  background: linear-gradient(30deg, #00192E 12%, #00000000 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(150deg, #00192E 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(30deg, #00192E 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(150deg, #00192E 12%, rgba(0, 0, 0, 0) 12.5%, rgba(0, 0, 0, 0) 87%, #00192E 87.5%, #00192E 0), linear-gradient(60deg, #3360da 25%, rgba(0, 0, 0, 0) 25.5%, rgba(0, 0, 0, 0) 75%, #3360da 75%, #3360da 0), linear-gradient(60deg, #3360da 25%, rgba(0, 0, 0, 0) 25.5%, rgba(0, 0, 0, 0) 75%, #3360da 75%, #3360da 0), #0C497A;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-size: 80px 140px;
+  margin: auto auto;
+}
+/*# sourceMappingURL=perso.css.map */

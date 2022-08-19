@@ -95,6 +95,31 @@ body {
             }
         }
     }
+    .fanarts {
+        p {
+            display: inline-block;
+            margin: 2px;
+            padding: 2px;
+            a {
+                padding: 2px;
+                transition: 0, 2s;
+                font-weight: bold;
+                &:hover {
+                    background-color: rgba(0, 0, 0, 0.13);
+                    color: black;
+                }
+                &:nth-child(2n+1) {
+                    color: $c3;
+                }
+                &:after {
+                    content: ",";
+                }
+                &:last-child:after {
+                    content: "";
+                }
+            }
+        }
+    }
 }
 
 h5 {
